@@ -1,4 +1,4 @@
-package fsm.persistence.common;
+package fsm.persistence.database;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
