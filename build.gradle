@@ -12,13 +12,13 @@ repositories {
 
 dependencies {
 
-    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
 
-    compile 'org.slf4j:jcl-over-slf4j:1.7.20'
-    compile 'ch.qos.logback:logback-classic:1.1.7'
-    compile group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '6.3'
+    implementation 'org.slf4j:jcl-over-slf4j:1.7.20'
+    implementation 'ch.qos.logback:logback-classic:1.1.7'
+    implementation group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '6.3'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
-    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.5.13'
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.5.13'
 }
