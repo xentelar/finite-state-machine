@@ -20,3 +20,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.5.13'
 }
+
+compileJava {
+    targetCompatibility = 11
+    sourceCompatibility = 11
+}
+
+java {
+    disableAutoTargetJvm()
+}
+
